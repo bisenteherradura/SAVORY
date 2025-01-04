@@ -36,33 +36,18 @@
         android:inputType="text"
         android:textSize="30dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="200dp"
-        android:textSize="20sp"
-        android:text="Ingredients" />
-
     <EditText
         android:id="@+id/ingredientsEditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/nameEditText"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="91dp"
+        android:layout_marginTop="32dp"
         android:backgroundTint="@color/transparent"
         android:ems="15"
         android:gravity="start|top"
         android:hint="Ingredients"
         android:inputType="textMultiLine" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="330dp"
-        android:textSize="20sp"
-        android:text="Procedure" />
 
     <EditText
         android:id="@+id/instructionsEditText"
@@ -70,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ingredientsEditText"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="86dp"
+        android:layout_marginTop="39dp"
         android:backgroundTint="@color/transparent"
         android:ems="15"
         android:gravity="start|top"
